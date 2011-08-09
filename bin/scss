@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # The command line Sass parser.
 
-require File.dirname(__FILE__) + '/../lib/sass'
+require '/usr/lib/ruby/1.8/sass'
 require 'sass/exec'
 
 opts = Sass::Exec::Scss.new(ARGV)
