@@ -327,13 +327,9 @@ END
         begin
           require 'compass'
         rescue LoadError
-          require 'rubygems'
-          begin
-            require 'compass'
-          rescue LoadError
-            puts "ERROR: Cannot load compass."
-            exit 1
-          end
+          puts "Unable to load Compass. Please install it e.g.  with the following command:"
+          puts "  aptitude install ruby-compass"
+          exit 1
         end
         Compass.add_project_configuration
         Compass.configuration.project_path ||= Dir.pwd

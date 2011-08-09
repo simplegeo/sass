@@ -45,9 +45,9 @@ module Sass
     def version
       return @@version if defined?(@@version)
 
-      numbers = File.read(scope('VERSION')).strip.split('.').
+      numbers = File.read('/usr/lib/ruby/1.8/sass/VERSION').strip.split('.').
         map {|n| n =~ /^[0-9]+$/ ? n.to_i : n}
-      name = File.read(scope('VERSION_NAME')).strip
+      name = File.read('/usr/lib/ruby/1.8/sass/VERSION_NAME').strip
       @@version = {
         :major => numbers[0],
         :minor => numbers[1],
