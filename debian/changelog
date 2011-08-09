@@ -1,3 +1,14 @@
+sass (3.2.0.alpha.0-0sg6) UNRELEASED; urgency=low
+
+  [ dsmith ]
+  * Revert "Revert "Use quilt"" This reverts commit
+    9841448511521c2d728c072c06221e4b3ae1a026.
+  * Setup the debian package to be non-arch dependent
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 09 Aug 2011 18:51:59 +0000
+
 sass (3.2.0.alpha.0-0sg0) unstable; urgency=low
 
   * Initial release
