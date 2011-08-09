@@ -1,23 +1,4 @@
-sass (3.2.0.alpha.0sg24) maverick; urgency=low
-
-  [ dsmith ]
-  * override distclean
-  * Revert "override distclean" This reverts commit
-    17cac16f39e600d37efcd38e40abbc3f548168cb.
-  * Add another command in the generated Makefile to make the debian
-    process build happy
-  * Ignore Makefiles
-  * Use quilt
-  * Revert "Use quilt" This reverts commit
-    9128b5e4e89bf49d01cb392245331a090cd1c75d.
-  * Damn you StandardVersion
-  * Update standard version
-
-  [ SimpleGeo Nerds ]
-
- -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 09 Aug 2011 18:17:52 +0000
-
-sass (3.2.0.alpha.0sg0) unstable; urgency=low
+sass (3.2.0.alpha.0-0sg0) unstable; urgency=low
 
   * Initial release
 

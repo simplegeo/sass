@@ -8,6 +8,6 @@ Standards-Version: 3.9.1
 Homepage: http://github.com/simplegeo/sass/
 
 Package: sass
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}, ruby1.8
 Description: Sass makes CSS fun again.
